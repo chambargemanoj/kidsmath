@@ -23,7 +23,7 @@ document.querySelector(".result").addEventListener("click", function() {
   }
   else {
   var subtstractionR = randomNumber1 / randomNumber2
-  var subtstractionResult = subtstractionR.toFixed(2);
+  var subtstractionResult = subtstractionR.toFixed(1);
   if (userInput == subtstractionResult) {
 
     alert("Good job , Correct answer : " + subtstractionResult)
