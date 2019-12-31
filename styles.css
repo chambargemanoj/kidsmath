@@ -24,8 +24,8 @@ button {
   color: #8000ff;
   font-family: 'Indie Flower', cursive;
   width: 18%;
-/*   border: solid 1px transparent;
-  border-radius: 4px;  */
+  border: solid 1px transparent;
+  border-radius: 4px; 
 }
 
 .answer {
