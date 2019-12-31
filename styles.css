@@ -21,11 +21,11 @@ footer {
 
 button {
   font-size: 2rem;
-  color: #8000ff;
+  color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
   width: 18%;
   border: solid 1px transparent;
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 
 .answer {
@@ -38,7 +38,7 @@ button {
 
 .equal {
   font-size: 2rem;
-  color: #8000ff;
+  color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 
 }
@@ -64,6 +64,6 @@ button {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 2rem;
-  color: #8000ff;
+  color: #4ECCA3;
   text-align: center;
 }
