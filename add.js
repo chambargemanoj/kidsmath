@@ -3,6 +3,13 @@ var randomNumber2
 count = 0;
 correct = 0
 
+function timer() {
+  setTimeout(function() {
+    alert("Time is over")
+    alert("Your total correct answers out of " + count + " are : " + correct + " 😎")
+  }, 600000)
+}
+
 function loop() {
   randomNumber1 = Math.random()
   randomNumber1 = randomNumber1 * 100
@@ -43,3 +50,4 @@ document.querySelector(".next").addEventListener("click", function() {
   }
 })
 loop();
+timer();
