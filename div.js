@@ -1,3 +1,4 @@
+//Keep 2 decimal for division result.
 var randomNumber1
 var randomNumber2
 count = 0;
