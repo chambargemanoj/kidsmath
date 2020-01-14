@@ -30,14 +30,14 @@ document.querySelector(".result").addEventListener("click", function() {
     alert("Please enter your answer before submit")
   }
   else {
-  var subtstractionR = randomNumber1 / randomNumber2
-  var subtstractionResult = subtstractionR.toFixed(1);
-  if (userInput == subtstractionResult) {
+  var divisionR = randomNumber1 / randomNumber2
+  var divisionResult = divisionR.toFixed(1);
+  if (userInput == divisionResult) {
 
-    alert("Good job , Correct answer : " + subtstractionResult)
+    alert("Good job , Correct answer : " + divisionResult)
     correct++
   } else {
-    alert("Oh Sorry , The correct answer is : " + subtstractionResult)
+    alert("Oh Sorry , The correct answer is : " + divisionResult)
   }
   document.querySelector(".answer").value = ""
 }})
